@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>The M O O N.</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- АВТОРИЗАЦИЯ -->
+<div id="auth-screen" class="fullscreen-overlay">
+    <div class="glass-box">
+        <div class="auth-title">Введи пароль</div>
+        <input type="password" id="passwordInput" placeholder="Пароль">
+        <button onclick="checkPassword()">Войти</button>
+        <div id="auth-error" class="auth-error"></div>
+    </div>
+</div>
+
+<!-- ПРИВЕТСТВИЕ -->
+<div id="welcome-screen" class="fullscreen-overlay hidden">
+    <div class="welcome-text" style="text-align: center;">
+        Добро пожаловать, Екатерина!
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

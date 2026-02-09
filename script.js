@@ -11,12 +11,12 @@ const REPOSITORIES = [
     {
         date: "2026-02-09",
         url: "https://glebkrasnov.github.io/gift-for-ekaterina",
-        icon: "icons/09.png"
+        icon: "14-512.png"
     },
     {
         date: "2026-02-16",
-        url: "https://username.github.io/repo-16/",
-        icon: "icons/16.png"
+        url: "https://glebkrasnov.github.io/TheMOON/",
+        icon: "8-512.png"
     },
     {
         date: "2026-02-23",
@@ -77,3 +77,4 @@ function redirectByDate() {
     // редирект
     window.location.href = selected.url;
 }
+

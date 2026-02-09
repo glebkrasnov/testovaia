@@ -14,7 +14,7 @@ const REPOSITORIES = [
         icon: "14-512.png"
     },
     {
-        date: "2026-02-16",
+        date: "2026-02-10",
         url: "https://glebkrasnov.github.io/TheMOON/",
         icon: "8-512.png"
     },
@@ -77,4 +77,5 @@ function redirectByDate() {
     // редирект
     window.location.href = selected.url;
 }
+
 
